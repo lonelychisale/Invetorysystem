@@ -1,0 +1,122 @@
+.usersbody{
+    position: absolute;
+    background-color: whitesmoke;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.form{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.usersbody .form form{
+    width: 500px;
+    padding-top: 0px;
+    max-width: 90%;
+    margin-top: 15px;
+}
+.forms{
+    padding: 30px;
+}
+.form form .formheader{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.form form .formheader h3{
+    color: gray;
+    font-family: serif;
+}
+.form form .formheader h1{
+    padding-top: 5px;
+    margin-left: 170px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: green;
+    color: wheat;
+    border: 0;
+    text-transform: capitalize;
+
+}
+.form form .formheader h1 {
+    color: white;
+    text-decoration: none;
+}
+.form form h3{
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: 1000;
+}
+h1 .link{
+    text-decoration: none;
+    color: white;
+    z-index: 200;
+    font-weight: 700;
+}
+.form form .form-group{
+    margin-top: 30px;
+}
+.form form .form-group label{
+    position: absolute;
+    margin-top: -20px;
+    text-transform: capitalize;
+    font-family: serif;
+    color: gray;
+}
+.form form .form-group input,select{
+    width: 100%;
+    border: none;
+    border: 1px solid silver;
+    height: 30px;
+    outline: none;
+    border-radius: 5px !important;
+    color: gray;
+}
+.form form .form-group input[type="submit"]{
+    background-color: green;
+    width: 102%;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+}
+.systemusersquantity{
+    width: 200px;
+    margin-left: 80px;
+}
+.systemusersquantity .card{
+    background-color: white;
+    border-left: 2px solid silver;
+}
+
+.systemusersquantity .card .cardheader h3{
+    text-align: center;
+    color: grey;
+    text-transform: capitalize;
+    padding-top: 5px !important;
+    font-family: serif;
+    font-weight: 800;
+}
+.systemusersquantity .card .cardbody h1{
+    margin-left: 20px;
+    color: silver;
+    font-weight: 1000;
+}
+.select{
+    border: none;
+    border-radius: 10px !important;
+    
+    outline: 1px solid silver;
+   
+}
+.my-custom-alert-box {
+    margin-top: -300px;
+    position: absolute;
+    /* Add any other styles you want to apply to the entire alert box */
+  }

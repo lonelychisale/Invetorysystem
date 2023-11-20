@@ -1,0 +1,99 @@
+.itemsdiv{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+.wrappingitemsform{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.itemsdiv .wrappingitemsform .itemsform form{
+    padding: 20px;
+    padding-top: 5px;
+    background-color: white;
+    margin-top: 20px;
+    width: 400px;
+}
+.itemsdiv .wrappingitemsform .itemsform form h2{
+   border-bottom: 1px solid silver;
+   color: gray; 
+   display: flex;
+   padding-bottom: 5px;
+}
+form h2 span:nth-child(1){
+    margin-left: 10px;
+    text-transform: capitalize;
+    margin-top: 5px;
+    font-family: serif;
+}
+form h2 span:nth-child(2) button{
+background-color: green;
+margin-top: 5px;
+margin-left: 120%;
+width: 120px;
+font-size: 15px;
+color: white;
+padding: 10px;
+}
+.link.items{
+    color: white;
+}
+.itemsdiv .wrappingitemsform .itemsform form .form-inputs{
+    margin-top: 45px;
+    
+}
+.itemsdiv .wrappingitemsform .itemsform form .form-inputs:nth-child(2){
+    margin-top: 40px;
+
+}
+.itemsdiv .wrappingitemsform .itemsform form .form-inputs label{
+    position: absolute;
+    margin-top: -25px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-family: serif;
+}
+.itemsdiv .wrappingitemsform .itemsform form .form-inputs input,select{
+    width: 97%;
+    border-radius: 5px;
+    
+}
+.itemsdiv .wrappingitemsform .itemsform form .form-inputs select{
+   
+    width: 100% !important;
+    border-radius: 5px !important;
+   
+}
+.itemsdiv .wrappingitemsform .itemsform form .form-inputs input[type='submit'],select{
+    width: 100%;
+   
+}
+.systemadditemsquantity{
+    width: 300px;
+    margin-left: 80px;
+
+}
+.systemadditemsquantity .card{
+    background-color: white;
+    margin-top: 0px;
+    border-left: 2px solid silver;
+
+}
+.systemadditemsquantity .card .cardheader{
+    background-color: white; 
+}
+.systemadditemsquantity .card .cardheader h3{
+    text-align: center;
+    color: grey;
+    text-transform: capitalize;
+}
+.systemadditemsquantity .card .cardbody h1{
+    margin-left: 20px;
+    color: silver;
+    font-weight: 1000;
+}

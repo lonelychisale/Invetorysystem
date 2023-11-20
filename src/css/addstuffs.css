@@ -1,0 +1,92 @@
+.usersbody{
+    position: absolute;
+    background-color: whitesmoke;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.form{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.form form{
+    background-color: white;
+    margin-top: 100px;
+    width: 500px;
+    padding-top: 0px;
+    max-width: 90%;
+}
+.forms{
+    padding: 30px;
+}
+.form form .formheader{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.form form .formheader h3{
+    color: gray;
+    font-family: serif;
+}
+.form form .formheader h1{
+    padding-top: 5px;
+    margin-left: 160px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: green;
+    color: wheat;
+    border: 0;
+    text-transform: capitalize;
+
+}
+.form form h3{
+    text-align: center;
+    padding: 5px;
+    text-transform: capitalize;
+    font-weight: 1000;
+}
+.form form .form-group{
+    margin-top: 30px;
+}
+.form form .form-group label{
+    position: absolute;
+    margin-top: -20px;
+    text-transform: capitalize;
+    font-family: serif;
+    color: gray;
+}
+.form form .form-group input{
+    width: 100%;
+    border: none;
+    border: 1px solid silver;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    color: gray;
+}
+.form form .form-group select{
+    width: 103% !important;
+    border: none;
+    border: 1px solid silver;
+    height: 35px;
+    outline: none;
+    border-radius: 5px ;
+    color: gray;
+}
+.form form .form-group input[type="submit"]{
+    background-color: green;
+    width: 103%;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    height: 35px;
+}
+select{
+    border-radius: 5px !important;
+}

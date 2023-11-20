@@ -1,0 +1,105 @@
+.assignitems{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: whitesmoke;
+}
+.wrap{
+  
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.wrap .wrappedassignitems .assignitemsform{
+    width: 450px;
+    max-width: 90%;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+   
+}
+.wrap .wrappedassignitems .assignitemsform h2{
+border-bottom: 1px solid silver;
+text-transform: capitalize;
+text-align: center;
+color: gray;
+display: flex;
+padding: 3px;
+padding-bottom: 5px;
+font-family: serif;
+
+}
+.wrap .wrappedassignitems .assignitemsform h2 span:nth-child(1){
+    margin-left: 3px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.wrap .wrappedassignitems .assignitemsform h2 span:nth-child(2){
+   
+    margin-left: 42%;
+   
+ 
+}
+.wrap .wrappedassignitems .assignitemsform h2 span:nth-child(2) .button{
+    background-color: green;
+    width: 120px;
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: gray;
+}
+.wrap .wrappedassignitems .assignitemsform h2 span:nth-child(2) button{
+    background-color: whitesmoke;
+    color: gray;
+    text-transform: capitalize;
+}
+.formgroup{
+    margin-top: 45px !important;
+}
+.formgroup:nth-child(1){
+  
+    margin-top: -10px;
+}
+.select{
+    width: 90% !important;
+    border: none !important;
+    outline: 1px solid silver !important;
+    border-radius: 5px !important;
+    background-color: white !important;
+}
+label{
+    color: gray;
+}
+.systemassigneditemsquantity{
+    width: 300px;
+    margin-left: 80px;
+    
+}
+
+.systemassigneditemsquantity .card{
+    background-color: white;
+    margin-top: 0px;
+    border-left: 2px solid silver;
+    
+   
+}
+.systemassigneditemsquantity .card .cardheader{
+    background-color: white; 
+}
+.systemassigneditemsquantity .card .cardheader h3{
+    text-align: center;
+    color: grey;
+    text-transform: capitalize;
+}
+.systemassigneditemsquantity .card .cardbody h1{
+    margin-left: 20px;
+    color: silver;
+    font-weight: 1000;
+}

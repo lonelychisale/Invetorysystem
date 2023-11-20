@@ -1,0 +1,50 @@
+.login{
+    background-color: silver;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.wrappinglogin{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.loginform{
+    background-color: white;
+    margin-top: 100px;
+    box-shadow: 0px 0px 3px 0px silver;
+    width:330px;
+    max-width: 90%;
+    padding: 20px;
+}
+.loginform h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: serif;
+}
+
+.loginform form .formgroup{
+    margin-top: 20px;
+}
+.loginform form .formgroup label{
+    position: absolute;
+    text-transform: capitalize;
+    margin-top: -25px;
+}
+.loginform form .formgroup input{
+    width: 97%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.loginform form .formgroup input[type='submit']{
+    width: 100%;
+}
+.warning{
+    background-color: silver;
+    color: white;
+    padding: 5px;
+}

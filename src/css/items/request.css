@@ -1,0 +1,58 @@
+.requestitem {
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;    
+    bottom: 0;
+    overflow-x: hidden;
+}
+.heading{
+    display: flex;
+}
+form img{
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 100px;
+    width: 100px;
+    height: 80px;
+    padding: 0;
+    padding: 4px;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    margin-top: -35px;
+    color: gray;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.requestitem .form form{
+    padding: 20px;
+    margin-bottom: 300px;
+    max-width: 80%;
+}
+form .formgroup{
+    margin-top: 30px;
+}
+form .formgroup label{
+    position: absolute;
+    margin-top: -25px;
+    text-transform: capitalize;
+}
+form .formgroup input{
+    width: 98%;
+}
+form .formgroup input[type='submit']{
+    width: 100%;
+}
+form .formgroup select{
+    width: 100% !important;
+}
+form .formgroup textarea{
+    width: 99% !important;
+    min-height: 150px;
+    border: none;
+    border: 1px solid silver;
+    outline: none;
+}

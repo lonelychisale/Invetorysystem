@@ -1,0 +1,446 @@
+.inventorydashboard{
+    background-color: whitesmoke;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.inventorydashboard .header{
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    box-shadow: 0px 0px 15px 0px silver;
+    z-index: 600;
+}
+.inventorydashboard .header .leftheader img{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+   
+}
+.inventorydashboard .header .leftheader img:hover{
+    width: 75px;
+    height: 75px; 
+}
+.inventorydashboard .header .rightheader{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+.inventorydashboard .header .rightheader span{
+    margin-right: 10px;
+    font-size: 20px;
+    color: gray;
+    font-weight: 500;
+}
+.inventorydashboard .header .rightheader span span{
+    color: white;
+    background-color: darkred;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    width: 10px;
+    height: 5px;
+    border-radius: 50%;
+   
+    
+   
+}
+.notificationscontents{
+    position: absolute;
+    background-color: white;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 21px;
+    width: 265px;
+    margin-right: 60px;
+   
+    
+}
+.notificationscontents ul{
+    padding: 0;
+    padding: 5px;
+    padding-top: 0;
+    
+   
+}
+.notificationscontents   h4{
+    border-bottom: 1px solid gray;
+    color: rgb(50, 49, 49);
+    font-family: sans-serif;
+    padding: 2px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+.notificationscontents  h4 span{
+    cursor: pointer;
+    color: rgb(19, 18, 18);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.active{
+    background-color: rgb(227, 222, 222);
+    color: white;
+   
+}
+
+.notificationscontents ul li{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+    color: gray;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+    
+    
+   
+}
+.notificationscontents ul li:hover{
+    background-color: rgb(227, 222, 222);
+    
+}
+.notificationscontents ul li:first-child{
+    margin-top: 0;
+    padding-top: 0;
+}
+.notificationmaindivs{
+    position: absolute;
+    background-color: white;
+    z-index: 2000;
+    width: 60vw;
+    margin-left: 20vw;
+    padding: 20px;
+    margin-top:150px;
+    color: gray;
+    
+}
+.notificationmaindivs .card h5{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: -30px;
+    color: gray;
+    cursor: pointer;
+   
+}
+.notificationmaindivs .card h5:hover{
+    background-color: gray;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    color: white;
+
+}
+.notificationmaindivs .card h3{
+    text-transform: capitalize;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+.notificationmaindivs .card h3 span:nth-child(2){
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+   
+}
+.responsemaindiv{
+    position: absolute;
+    background-color: white;
+    z-index: 2000;
+    width: 55vw;
+    margin-left: 20vw;
+    padding: 20px;
+    margin-top:150px;
+    color: gray;
+}
+
+.responsemaindiv .card h3{
+    text-transform: capitalize;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    color: gray;  
+}
+.responsemaindiv .card h3 span:nth-child(2){
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+   
+}
+.responsemaindiv .card h5{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+    margin-top: -20px;
+    color: gray;
+    cursor: pointer;
+   
+}
+.responsemaindiv .card h5:hover{
+    background-color: gray;
+    border-radius: 50%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    color: white;
+
+}
+.responsemaindiv .card p{
+    min-height: 100px;
+}
+.responsemaindiv .card  h3.reply{
+    background-color: green;
+    color: white;
+    width: 200px;
+    text-align: center;
+    right: 0;
+    margin-right: 10px;
+    margin-top: -30px;
+    position: absolute;
+    padding: 2px;
+    font-size: 15px;
+    cursor: pointer;
+    color: white;
+}
+.reply{
+    background-color: green;
+    color: white;
+    width: 100px;
+    text-align: center;
+    padding: 2px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.responseform form input[type='submit']{
+    margin-top: 10px;
+}
+
+.inventorydashboard .header .rightheader button{
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 0px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-transform: uppercase;
+    background-color: green;
+    color: white;
+}
+.inventorydashboard .header .rightheader button:hover{
+    opacity: 0.8;
+    font-size: 17px;
+}
+.inventorydashboard .content{
+    display: flex;
+    margin-top: 60px;
+}
+.inventorydashboard .content .menu{
+    background-color: green;
+    color: white;
+    width: 15vw;
+    position: fixed;
+    height: 180vh;
+}
+
+.inventorydashboard .content .menu ul {
+    padding: 10px;
+}
+.inventorydashboard .content .menu ul li{
+    padding: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.inventorydashboard .content .menu ul li:hover{
+    font-size: 18px;
+    border-bottom: 1px solid whitesmoke;
+}
+.inventorydashboard .content .menu ul li:last-child{
+    border-bottom: unset;   
+}
+.dropdown li{
+   
+    border-bottom: unset;
+    opacity: 0.7;
+}
+
+.inventorydashboard .content .contentscontainer{
+    width: calc(100vw - 15vw);
+    margin-left: 15vw;
+}
+.inventorydashboard .content .contentscontainer .wrappingcontentcontainer{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    width: inherit;
+}
+.inventorydashboard .content .contentscontainer .wrappingcontentcontainer .wrappedcontents{
+    width: 93%;
+}
+.inventorydashboard .content .contentscontainer .wrappingcontentcontainer .wrappedcontents .mainheader{
+    width: inherit;
+    border-bottom: 1px solid silver;
+}
+
+.inventorydashboard .content .contentscontainer .wrappingcontentcontainer .wrappedcontents .mainheader h3{
+    text-transform: capitalize;
+    color: gray;
+}
+.quantitygadgetsdivs{
+    display: none;
+    color: grey;
+    margin-top: 50px;
+}
+.quantitygadgetsdivs div{
+    margin-left: 20px;
+    outline: 1px solid silver;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 50%;
+    padding-top: 0px;
+    padding-top: 0px;
+}
+.quantitygadgetsdivs div h3 {
+    font-size: 20px;
+    padding: 0px;
+}
+.quantitygadgetsdivs div h3 span{
+    margin-right: 0px;
+    font-size: 11px;
+    font-weight: 900;
+}
+.quantitygadgetsdivs div:nth-child(1){
+    margin-left: 0;
+}
+table{
+    width: 100%;
+    border: 1px solid silver;
+    margin-top: 40px;
+    color: gray;
+}
+table th{
+    text-transform: uppercase;
+}
+table td{
+    text-transform: capitalize;
+}
+table td,th{
+    border: 1px solid silver;
+    text-align: left;
+    padding: 8px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.tableheader th:nth-child(2){
+    text-align: right;
+}
+td button{
+    cursor: pointer;
+}
+form{
+    width: 100%;
+  
+}
+form .searchinputs{
+    display: flex;
+    width: 75%;
+    margin-left: 23%;
+
+
+}
+ input{
+    width: inherit;
+    height: 30px;
+    border: none;
+    outline: 1px solid silver;
+    padding-left:10px ;
+   
+}
+select{
+    width: 30% !important;
+    height: 30px;
+    border-radius: 0% !important;
+    text-transform: capitalize;
+    border: none;
+    color: gray;
+    font-weight: 900;
+    outline: 1px solid silver;
+}
+input[type='submit']{
+    width: 20%;
+    background-color: green;
+    color: white;
+    height: 31px;
+    text-transform: uppercase;
+    margin-top: -1px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+.autocomplete-suggestions{
+    background-color: white;
+    position: absolute;
+    width: 31.07%;
+    margin-left: 17.99%;
+    padding: 0;
+    margin-top: -18.4px;
+    text-align: left;
+    outline: 1px solid silver;
+    padding: 2px;
+   
+}
+.autocomplete-suggestions li{
+    font-size: 15px;
+    text-transform: capitalize;
+    list-style-type: none;
+    border-bottom: 1px solid silver;
+    padding: 5px;
+}
+.searchresultstable{
+    position: absolute;
+    background-color: white;
+    width: 53.5%;
+    margin-left: 18.1%;
+    margin-top: -20px;
+}
+input[type='search']{
+    color: gray;
+}
+button{
+    background-color: gray;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+}
+.actionslink{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    height: 9000px;
+    border: none;
+   
+}
+.hidden{
+    background-color: red!;
+    display: none !important;
+}

@@ -1,0 +1,30 @@
+.viewlaptops{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0;
+    bottom:0 ;
+    right: 0;
+    left: 0;
+    
+}
+.wrappinglaptops{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.wrappinglaptops .wrappedlaptops{
+    width: 1200px;
+    max-width: 90%;
+}
+table{
+    width: 100%;
+}
+
+input[type='submit']{
+    width: 10%;
+}
+.autocomplete-suggestions.laptops{
+    width: 31.47%;
+    margin-left: 18.3%;
+}
